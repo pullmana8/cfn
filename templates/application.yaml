@@ -103,9 +103,6 @@ Resources:
           cd /var/www/html
           aws s3 sync s3://${ApplicationS3Bucket} /var/www/html
       ImageId: ami-07c1207a9d40bc3bd
-      KeyName:
-        Fn::ImportValue:
-          !Sub "${EnvironmentName}-BASTION-HOST-SSH-KEY-NAME"
       IamInstanceProfile: !Ref IAMInstanceProfile
       SecurityGroups:
         - Ref: WebServerSecGroup

@@ -1,0 +1,8 @@
+template_path: vpc.yaml
+parameters:
+  EnvironmentName: UdacityProject
+  VPCCidrBlock: 10.0.0.0/16
+  PublicSubnetCIDR: 10.0.0.0/24
+  PrivateSubnetCIDR: 10.0.2.0/24
+  PublicSubnet2CIDR: 10.0.1.0/24
+  PrivateSubnet2CIDR: 10.0.3.0/24

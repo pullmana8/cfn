@@ -1,0 +1,6 @@
+template_path: bastion.yaml
+parameters:
+  EnvironmentName: UdacityProject
+  NetworkAccessIP: 144.136.38.245/32
+  BastionHostSSHS3Bucket: udacity-cfn-keys
+  BastionHostSSHKeyName: cfn-key-bastion

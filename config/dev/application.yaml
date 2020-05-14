@@ -1,0 +1,5 @@
+template_path: application.yaml
+parameters:
+  EnvironmentName: UdacityProject
+  DNSProtocol: http://
+  ApplicationS3Bucket: acaldwell-cfn-project
